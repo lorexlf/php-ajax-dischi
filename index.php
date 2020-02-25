@@ -24,7 +24,7 @@
 
   <!-- Header -->
   <header>
-    <div class="container">
+    <div class="container px-2">
       <div class="grid-row">
         <div class="logo">
           <i class="fab fa-spotify py-1"></i>

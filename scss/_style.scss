@@ -46,7 +46,13 @@ main {
   .item {
     background: #000;
   }
-    .title { font-weight: 500;}
+    .title {
+      font-weight: 500;
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
     .artist {
       font-size: $fontBase;
       font-weight: 500;

@@ -1611,6 +1611,10 @@ main .item {
 }
 main .title {
   font-weight: 500;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 main .artist {
   font-size: 16px;
