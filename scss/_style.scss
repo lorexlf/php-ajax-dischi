@@ -41,6 +41,19 @@ main {
   /* DISPLAY */
   /* POSITION */
   /* INTERACTION */
+
+  // Items
+  .item {
+    min-height: 430px;
+    background: #000;
+  }
+    .title {  }
+    .artist {
+      font-size: $fontBase;
+      font-weight: 500;
+      color: #ccc;
+    }
+    .year { font-size: $fontBase * .75;}
 }
 
 
