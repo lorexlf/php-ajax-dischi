@@ -44,14 +44,13 @@ main {
 
   // Items
   .item {
-    min-height: 430px;
     background: #000;
   }
-    .title {  }
+    .title { font-weight: 500;}
     .artist {
       font-size: $fontBase;
       font-weight: 500;
-      color: #ccc;
+      color: #5d5d5d;
     }
     .year { font-size: $fontBase * .75;}
 }

@@ -1,3 +1,9 @@
+<?php
+
+  include __DIR__ . '/database.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,18 +38,20 @@
     <div class="container">
       <div class="grid-row">
         <!-- Loop -->
-        <div class="col-sm-6 col-md-4">
-          <div class="item p-3">
-            <div class="image">
-              <img src="https://fanart.tv/api/download.php?type=download&image=161901&section=2" alt="Album cover Always the Hard Way - Terror">
-            </div>
-            <div class="info pt-2">
-              <h5 class="title">Always the Hard Way Lorem ipsum dolor</h5>
-              <p class="artist pt-1">Terror</p>
-              <p class="year">2006</p>
+        <?php foreach ($database as $key => $album) { ?>
+          <div class="col-sm-6 col-md-4">
+            <div class="item p-3">
+              <div class="image">
+                <img src="<?php echo $album['poster'] ?>" alt="Album cover <?php echo $album['title'] ?> - <?php echo $album['author'] ?>">
+              </div>
+              <div class="info pt-2">
+                <h5 class="title"><?php echo $album['title'] ?></h5>
+                <p class="artist pt-1"><?php echo $album['author'] ?></p>
+                <p class="year"><?php echo $album['year'] ?></p>
+              </div>
             </div>
           </div>
-        </div>
+        <?php } ?>
       </div> <!-- / .grid-row -->
     </div> <!-- / .container -->
   </main>

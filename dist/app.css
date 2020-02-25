@@ -295,7 +295,7 @@ Columns width */
 
 .col {
   flex: 1;
-  min-width: 270px;
+  min-width: 360px;
   padding: 16px;
 }
 
@@ -1607,13 +1607,15 @@ main {
   /* INTERACTION */
 }
 main .item {
-  min-height: 430px;
   background: #000;
+}
+main .title {
+  font-weight: 500;
 }
 main .artist {
   font-size: 16px;
   font-weight: 500;
-  color: #ccc;
+  color: #5d5d5d;
 }
 main .year {
   font-size: 12px;
