@@ -4,7 +4,22 @@ H E A D E R
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 ////////////////////////////////////////////////// */
 
+header {
+  /* SIZE */
+  /* STYLE */
+  background: #000;
+  /* TYPOGRAPHY */
+  color: #fff;
+  /* DISPLAY */
+  /* POSITION */
+  /* INTERACTION */
 
+  // logo
+  .logo i {
+    font-size: 48px;
+    color: $color-1;
+  }
+}
 
 
 /* //////////////////////////////////////////////////

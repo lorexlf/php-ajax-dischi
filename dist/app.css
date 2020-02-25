@@ -1482,9 +1482,9 @@ Buttons */
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  border: 1px solid orange;
+  border: 1px solid #1DB954;
   cursor: pointer;
-  background: orange;
+  background: #1DB954;
   color: #fff;
 }
 .btn.icon-left i {
@@ -1497,8 +1497,8 @@ Buttons */
   width: 100%;
 }
 .btn:hover {
-  background: #db8e00;
-  border: 1px solid #db8e00;
+  background: #189a46;
+  border: 1px solid #189a46;
 }
 
 .btn-sm {
@@ -1524,7 +1524,7 @@ Stickers */
   white-space: nowrap;
   vertical-align: baseline;
   display: inline-block;
-  background: green;
+  background: #1DB954;
 }
 .sticker.stk-sm {
   font-size: 0.75em;
@@ -1573,6 +1573,21 @@ Images */
 H E A D E R
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 ////////////////////////////////////////////////// */
+header {
+  /* SIZE */
+  /* STYLE */
+  background: #000;
+  /* TYPOGRAPHY */
+  color: #fff;
+  /* DISPLAY */
+  /* POSITION */
+  /* INTERACTION */
+}
+header .logo i {
+  font-size: 48px;
+  color: #1DB954;
+}
+
 /* //////////////////////////////////////////////////
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 M A I N

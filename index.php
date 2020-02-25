@@ -17,9 +17,13 @@
 <body>
 
   <header>
-    <div class="grid-row">
-      
-    </div>
+    <div class="container">
+      <div class="grid-row">
+        <div class="logo">
+          <i class="fab fa-spotify py-1"></i>
+        </div> <!-- / .logo -->
+      </div> <!-- / .grid-row -->
+    </div> <!-- / .container -->
   </header>
 
 </body>
