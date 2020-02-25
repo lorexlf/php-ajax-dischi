@@ -1,0 +1,65 @@
+/* //////////////////////////////////////////////////
+––––––––––––––––––––––––––––––––––––––––––––––––––
+V A R I A B L E S
+––––––––––––––––––––––––––––––––––––––––––––––––––
+////////////////////////////////////////////////// */
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Layout */
+
+// Grid Row
+$max-width: 1080px;
+$gutter: 32px;
+$gutter-mobile: 16px;
+$max-column: 4;
+
+// Media Query
+$media-desktop: 992px;
+$media-tablet: 768px;
+$media-smartphone: 576px;
+
+// Spacing
+$p-1: 0;
+$p-2: 4;
+$m-1: 0;
+$m-2: 4;
+$spaceZero: 0px;
+$spaceBase: 16px;
+$spaceMin: $spaceBase / 2;
+
+// Border radius
+$radius-1: 4px;
+$radius-2: 10px;
+$radiusCircle: 50%;
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Colors */
+
+$color-1: orange;
+$color-2: red;
+$color-3: green;
+
+$colorTxt-k: #000;
+$colorTxt-w: #fff;
+
+$colorTxt-1: #111;
+$colorTxt-2: #333;
+$colorTxt-3: #f00;
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Typography */
+
+$fontBase: 16px;
+$lineHeight: 1.4;
+$lineHeightBase: $fontBase * $lineHeight;
+
+// Headings
+$h1: $fontBase + 32px;
+$h2: $fontBase + 20px;
+$h3: $fontBase + 8px;
+$h4: $fontBase + 5px;
+$h5: $fontBase + 2px;
+$h6: $fontBase;

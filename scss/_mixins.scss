@@ -1,0 +1,29 @@
+/* //////////////////////////////////////////////////
+––––––––––––––––––––––––––––––––––––––––––––––––––
+M I X I N S
+––––––––––––––––––––––––––––––––––––––––––––––––––
+////////////////////////////////////////////////// */
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Flexbox */
+
+// Flex Flow
+@mixin flex-xf  { display: flex; flex-flow: row nowrap; }
+@mixin flex-xfw  { display: flex; flex-flow: row wrap; }
+@mixin flex-xfwr  { display: flex; flex-flow: row wrap-reverse; }
+@mixin flex-yf  { display: flex; flex-flow: column nowrap; }
+@mixin flex-yfw  { display: flex; flex-flow: column wrap; }
+@mixin flex-yfwr  { display: flex; flex-flow: column wrap-reverse; }
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Clearfix */
+
+@mixin clearfix() {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}

@@ -1,0 +1,222 @@
+/* //////////////////////////////////////////////////
+––––––––––––––––––––––––––––––––––––––––––––––––––
+U T I L I T I E S
+––––––––––––––––––––––––––––––––––––––––––––––––––
+////////////////////////////////////////////////// */
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Display */
+
+.d-none { display: none; }
+.d-block { display: block; }
+.d-inline-block { display: inline-block; }
+
+// Media Query Display None & Block
+
+// Up to Small Devices
+@media screen and (max-width: $media-smartphone) {
+  .d-xs-none { display: none; }
+  .d-xs-block { display: block; }
+} // Up to Small Devices
+
+// Small Devices
+@media screen and (min-width: $media-smartphone) {
+  .d-sm-none { display: none; }
+  .d-sm-block { display: block; }
+} // Small Devices
+
+// Medium Devices
+@media screen and (min-width: $media-tablet) {
+  .d-md-none { display: none; }
+  .d-md-block { display: block; }
+} // Medium Devices
+
+// Large Devices
+@media screen and (min-width: $media-desktop) {
+  .d-lg-none { display: none; }
+  .d-lg-block { display: block; }
+} // Large Devices
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Paddings */
+
+@for $i from 0 through 2 {
+  .p-#{$i} { padding: $spaceMin * $p-1; }
+  .pt-#{$i} { padding-top: $spaceMin * $p-1; }
+  .pr-#{$i} { padding-right: $spaceMin * $p-1; }
+  .pb-#{$i} { padding-bottom: $spaceMin * $p-1; }
+  .pl-#{$i} { padding-left: $spaceMin * $p-1; }
+  .px-#{$i} { padding-left: $spaceMin * $p-1; padding-right: $spaceMin * $p-1; }
+  .py-#{$i} { padding-top: $spaceMin * $p-1; padding-bottom: $spaceMin * $p-1; }
+  $p-1: $p-1 + 1;
+} // Loop 0-2
+@for $i from 3 through 6 {
+  .p-#{$i} { padding: $spaceMin * $p-2; }
+  .pt-#{$i} { padding-top: $spaceMin * $p-2; }
+  .pr-#{$i} { padding-right: $spaceMin * $p-2; }
+  .pb-#{$i} { padding-bottom: $spaceMin * $p-2; }
+  .pl-#{$i} { padding-left: $spaceMin * $p-2; }
+  .px-#{$i} { padding-left: $spaceMin * $p-2; padding-right: $spaceMin * $p-2; }
+  .py-#{$i} { padding-top: $spaceMin * $p-2; padding-bottom: $spaceMin * $p-2; }
+  $p-2: $p-2 + 4;
+} // Loop 3-6
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Margins */
+
+@for $i from 0 through 2 {
+  .m-#{$i} { margin: $spaceMin * $m-1; }
+  .mt-#{$i} { margin-top: $spaceMin * $m-1; }
+  .mr-#{$i} { margin-right: $spaceMin * $m-1; }
+  .mb-#{$i} { margin-bottom: $spaceMin * $m-1; }
+  .ml-#{$i} { margin-left: $spaceMin * $m-1; }
+  .mx-#{$i} { margin-left: $spaceMin * $m-1; margin-right: $spaceMin * $m-1; }
+  .my-#{$i} { margin-top: $spaceMin * $m-1; margin-bottom: $spaceMin * $m-1; }
+  $m-1: $m-1 + 1;
+} // Loop 0-2
+@for $i from 3 through 6 {
+  .m-#{$i} { margin: $spaceMin * $m-2; }
+  .mt-#{$i} { margin-top: $spaceMin * $m-2; }
+  .mr-#{$i} { margin-right: $spaceMin * $m-2; }
+  .mb-#{$i} { margin-bottom: $spaceMin * $m-2; }
+  .ml-#{$i} { margin-left: $spaceMin * $m-2; }
+  .mx-#{$i} { margin-left: $spaceMin * $m-2; margin-right: $spaceMin * $m-2; }
+  .my-#{$i} { margin-top: $spaceMin * $m-2; margin-bottom: $spaceMin * $m-2; }
+  $m-2: $m-2 + 4;
+} // Loop 3-6
+
+.mr-auto { margin-right: auto; }
+.ml-auto { margin-left: auto; }
+.mx-auto { margin-right: auto; margin-left: auto; }
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Flexbox */
+
+// Flex Flow
+.flex-xf { @include flex-xf }
+.flex-xfw { @include flex-xfw }
+.flex-xfwr { @include flex-xfwr }
+.flex-yf { @include flex-yf }
+.flex-yfw { @include flex-yfw }
+.flex-yfwr { @include flex-yfwr }
+
+// Justify Content
+.jc-start { justify-content: flex-start; }
+.jc-end { justify-content: flex-end; }
+.jc-center { justify-content: center; }
+.jc-space-b { justify-content: space-between; }
+.jc-space-a { justify-content: space-around; }
+
+// Align Items
+.ai-start { align-items: flex-start; }
+.ai-end { align-items: flex-end; }
+.ai-center { align-items: center; }
+.ai-stretch { align-items: stretch; }
+.ai-baseline { align-items: baseline; }
+
+// Align Content
+.ac-start { align-items: flex-start; }
+.ac-end { align-items: flex-end; }
+.ac-center { align-items: center; }
+.ac-stretch { align-items: stretch; }
+.ac-space-b { align-items: space-between; }
+.ac-space-a { align-items: space-around; }
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Buttons */
+
+.btn {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid $color-1;
+  cursor: pointer;
+  background: $color-1; // Change
+  color: $colorTxt-w; // Change
+
+  // Buttons with icons
+  &.icon-left i {
+    margin-right: $spaceBase / 1.5;
+  }
+  &.icon-right i {
+    margin-left: $spaceBase / 1.5;
+  }
+  // Full width button
+  &.full {
+    width: 100%;
+  }
+
+  // Hover
+  &:hover {
+    background: darken($color-1, 7); // Change
+    border: 1px solid darken($color-1, 7); // Change
+  }
+} // .btn
+
+// Button Small
+.btn-sm {
+  font-size: $fontBase * .8;
+  padding: $spaceBase / 2.2 $spaceBase / 1.5;
+}
+// Button Medium
+.btn-md {
+  font-size: $fontBase;
+  padding: $spaceBase / 1.2 $spaceBase;
+}
+// Button Large
+.btn-lg {
+  font-size: $fontBase * 1.2;
+  padding: $spaceBase $spaceBase * 1.2;
+}
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Stickers */
+
+.sticker {
+  margin-left: $spaceMin / 2;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  display: inline-block;
+  background: $color-3; // change
+
+  // Small stickers
+  &.stk-sm { font-size: .75em; padding: $spaceMin / 2 $spaceMin / 1; }
+  // Medium stickers
+  &.stk-md { font-size: 1em; padding: $spaceMin - 2 $spaceMin; }
+  // Large stickers
+  &.stk-lg { font-size: 1.2em; padding: $spaceMin $spaceMin + 2; }
+  // Empty stickers
+  &:empty {
+    display: none;
+  }
+} // .sticker
+
+// Quick fix for badges in buttons
+.btn .sticker {
+  position: relative;
+  top: -1px;
+}
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Border radius */
+
+.rad1 { border-radius: $radius-1; }
+.rad2 { border-radius: $radius-2; }
+.rad-circle { border-radius: $radiusCircle; }
+
+
+/* ––––––––––––––––––––––––––––––––––––––––––––––––––
+Images */
+
+.image img {
+  width: 100%;
+  display: block;
+}

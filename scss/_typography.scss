@@ -1,0 +1,32 @@
+/* //////////////////////////////////////////////////
+––––––––––––––––––––––––––––––––––––––––––––––––––
+T Y P O G R A P H Y
+––––––––––––––––––––––––––––––––––––––––––––––––––
+////////////////////////////////////////////////// */
+
+
+body {
+  font-family: 'Montserrat', 'Helvetica', sans-serif;
+  font-size: $fontBase;
+  line-height: $lineHeightBase;
+}
+
+.txt-lower { text-transform: lowercase; }
+.txt-caps { text-transform: capitalize; }
+.txt-upper { text-transform: uppercase; }
+
+.txt-lead { font-size: $fontBase * 1.2; line-height: $fontBase * 1.2 * $lineHeight; }
+.txt-small { font-size: $fontBase * .9; line-height: $fontBase * .9 * $lineHeight; }
+.txt-note { font-size: $fontBase * .75; line-height: $fontBase * .75 * $lineHeight; }
+
+.txt-left { text-align: left; }
+.txt-right { text-align: right; }
+.txt-center { text-align: center; }
+
+// Headings
+h1 { font-size: $h1; line-height: $h1 * $lineHeight; font-weight: 500; }
+h2 { font-size: $h2; line-height: $h2 * $lineHeight; font-weight: 500; }
+h3 { font-size: $h3; line-height: $h3 * $lineHeight; font-weight: 700; }
+h4 { font-size: $h4; line-height: $h4 * $lineHeight; font-weight: 700; }
+h5 { font-size: $h5; line-height: $h5 * $lineHeight; font-weight: 700; }
+h6 { font-size: $h6; line-height: $h6 * $lineHeight; font-weight: 700; }
