@@ -22,7 +22,7 @@ $(document).ready(function(){
       method: "GET",
       success: function (data, stato) {
         // If there is results
-        if (data.lenght > 0) {
+        if (data.length > 0) {
           printResults(data);
         }
         else {
@@ -45,7 +45,7 @@ $(document).ready(function(){
     var author;
     var year;
     // Handlebars source
-    var source = $('.albums').html();
+    var source = $('#entry-template').html();
     var template = Handlebars.compile(source);
     // Loop - Get Single Album
     for (var i = 0; i < data.length; i++) {

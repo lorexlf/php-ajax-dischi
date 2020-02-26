@@ -23,7 +23,7 @@
       'title' => 'The Jester Race',
       'author' => 'In Flames',
       'year' => 2002,
-      'poster' => 'https://lh3.googleusercontent.com/proxy/zP0mLmjJpuNGaElfMJcsATEFovpSsWb7ThkwGBtrWMPZX3pk2DNSObsvW-dDQo6x2M3kfnoVYSa_akVG_wLDawuMk_LGEv-VJ755tf9jT32w-aKKs7y9oOpmm-K2xln6sZ0uwvPgEA'
+      'poster' => 'https://www.nuclearblast.de/static/articles/236/236411.jpg/1000x1000.jpg'
     ], // 004
     [
       'title' => 'The Rise of Brutality',
