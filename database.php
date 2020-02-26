@@ -61,6 +61,36 @@
       'year' => 1988,
       'poster' => 'https://studiodiscography.files.wordpress.com/2017/10/1988-8-out-of-this-world.jpeg'
     ], // 010
+    [
+      'title' => 'Painkiller',
+      'author' => 'Judas Priest',
+      'year' => 1990,
+      'poster' => 'https://2.bp.blogspot.com/-5AFR4qH0DVg/VGQAGECazbI/AAAAAAABaGs/ReDcSUGKLw4/s1600/Russel%2BCD.jpg'
+    ], // 011
+    [
+      'title' => 'A Kind of Magic',
+      'author' => 'Queen',
+      'year' => 1986,
+      'poster' => 'https://media.cultura.com/media/catalog/product/cache/1/image/1000x1000/9df78eab33525d08d6e5fb8d27136e95/a/-/a-kind-of-magic-1986-0602527799711_0.jpg?t=1509466008'
+    ], // 012
+    [
+      'title' => 'Toto IV',
+      'author' => 'Toto',
+      'year' => 1982,
+      'poster' => 'https://images.eprice.it/nobrand/0/hres/836/200553836/5845487.jpg'
+    ], // 013
+    [
+      'title' => 'Crazy World',
+      'author' => 'Scorpions',
+      'year' => 1990,
+      'poster' => 'https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/03/35/8d/03358d5e-fb79-889a-8f30-d774914e1cbf/00042284690829.rgb.jpg/1000x1000bb.jpeg'
+    ], // 014
+    [
+      'title' => 'Long Live Rock & Roll',
+      'author' => 'Rainbow',
+      'year' => 1978,
+      'poster' => 'https://www.progarchives.com/progressive_rock_discography_covers/2735/cover_48161631102016_r.jpg'
+    ], // 015
   ]; // $database
 
 ?>

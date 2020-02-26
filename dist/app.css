@@ -1620,6 +1620,10 @@ main .artist {
   font-size: 16px;
   font-weight: 500;
   color: #5d5d5d;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 main .year {
   font-size: 12px;

@@ -57,6 +57,10 @@ main {
       font-size: $fontBase;
       font-weight: 500;
       color: #5d5d5d;
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
     .year { font-size: $fontBase * .75;}
 }
