@@ -44,8 +44,8 @@
       'poster' => 'https://images.genius.com/8e0bf7e3de19884439c40821adc58365.1000x1000x1.jpg'
     ], // 007
     [
-      'title' => 'Iron Maiden',
-      'author' => 'Somewhere in Time',
+      'title' => 'Somewhere in Time',
+      'author' => 'Iron Maiden',
       'year' => 1986,
       'poster' => 'https://i.pinimg.com/originals/6b/17/ec/6b17eca11a4195c73884f58d6440d6cf.jpg'
     ], // 008
@@ -73,6 +73,24 @@
       'year' => 1986,
       'poster' => 'https://media.cultura.com/media/catalog/product/cache/1/image/1000x1000/9df78eab33525d08d6e5fb8d27136e95/a/-/a-kind-of-magic-1986-0602527799711_0.jpg?t=1509466008'
     ], // 012
+    [
+      'title' => 'Toto IV',
+      'author' => 'Toto',
+      'year' => 1982,
+      'poster' => 'https://images.eprice.it/nobrand/0/hres/836/200553836/5845487.jpg'
+    ], // 013
+    [
+      'title' => 'Crazy World',
+      'author' => 'Scorpions',
+      'year' => 1990,
+      'poster' => 'https://is4-ssl.mzstatic.com/image/thumb/Music118/v4/03/35/8d/03358d5e-fb79-889a-8f30-d774914e1cbf/00042284690829.rgb.jpg/1000x1000bb.jpeg'
+    ], // 014
+    [
+      'title' => 'Long Live Rock & Roll',
+      'author' => 'Rainbow',
+      'year' => 1978,
+      'poster' => 'https://www.progarchives.com/progressive_rock_discography_covers/2735/cover_48161631102016_r.jpg'
+    ], // 015
     [
       'title' => 'Toto IV',
       'author' => 'Toto',

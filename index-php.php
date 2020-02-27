@@ -1,34 +1,29 @@
 <?php
 
   include __DIR__ . '/database.php';
+  include 'partials/header.php';
 
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- Handlebars -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.2/handlebars.min.js"></script>
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,800,900&display=swap" rel="stylesheet">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-  <!-- XLF CSS -->
-  <link rel="stylesheet" href="dist/app.css">
-  <title>Ajax Dischi</title>
-</head>
 <body>
 
   <!-- Header -->
   <header>
     <div class="container px-2">
-      <div class="grid-row">
+      <div class="grid-row jc-space-b ai-center">
         <div class="logo">
           <i class="fab fa-spotify py-1"></i>
         </div> <!-- / .logo -->
+        <div class="authors-list">
+          <select id="search-cd" name="search">
+            <option value="">All</option>
+            <?php foreach ($database as $value) { ?>
+
+              <option value="<?= $value['author'] ?>"><?= $value['author'] ?></option>
+
+            <?php } ?>
+          </select>
+        </div>
       </div> <!-- / .grid-row -->
     </div> <!-- / .container -->
   </header>

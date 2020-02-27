@@ -6,6 +6,8 @@ $(document).ready(function(){
   // Code
   getResults();
 
+  }); // Button click query
+
 
   //////////////////////////////////////////////////
   // F U N C T I O N S
@@ -24,6 +26,7 @@ $(document).ready(function(){
         // If there is results
         if (data.length > 0) {
           printResults(data);
+          printSelect(data);
         }
         else {
           printNoResult($('.albums'));

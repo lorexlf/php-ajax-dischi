@@ -72,10 +72,12 @@ B O N U S
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 ////////////////////////////////////////////////// */
 
-.search {
-  input {
+.authors-list {
+  select {
     width: 200px;
     padding: $spaceMin;
     border: none;
+    border-radius: 0px;
+    appearance: button;
   }
 }

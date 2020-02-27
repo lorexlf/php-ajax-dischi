@@ -1634,8 +1634,12 @@ main .year {
 B O N U S
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 ////////////////////////////////////////////////// */
-.search input {
+.authors-list select {
   width: 200px;
   padding: 8px;
   border: none;
+  border-radius: 0px;
+  -webkit-appearance: button;
+     -moz-appearance: button;
+          appearance: button;
 }
